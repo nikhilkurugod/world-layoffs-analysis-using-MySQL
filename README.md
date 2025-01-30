@@ -6,7 +6,8 @@ Dataset: Layoff data containing company, location, industry, layoffs count, perc
 Tools Used: MySQL
 
 # 2. Steps Followed
-#Data Cleaning & Preprocessing
+# Data Cleaning & Preprocessing
+
 1.Removing Duplicates.
 
 Created a staging table (layoffs_staging2) and used ROW_NUMBER() to remove duplicates.
@@ -33,7 +34,7 @@ Removed rows where both total_laid_off and percentage_laid_off were NULL.
 
 Dropped the row_num column after deduplication.
 
-#Exploratory Data Analysis (EDA)
+# Exploratory Data Analysis (EDA)
 
 5.Layoff Trends
 
@@ -55,7 +56,7 @@ Top 5 companies with highest layoffs per year.
 
 Layoffs at different startup stages.
 
-8. SQL Queries Used
+8.SQL Queries Used
    
 Data Cleaning (DELETE, UPDATE, ALTER TABLE)
 
