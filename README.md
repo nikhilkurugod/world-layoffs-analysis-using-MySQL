@@ -5,9 +5,7 @@ Objective: Cleaning, standardizing, and analyzing layoff data to extract meaning
 Dataset: Layoff data containing company, location, industry, layoffs count, percentages, and funding details.
 Tools Used: MySQL
 
-# 2. Steps Followed
-
-1. Data Cleaning & Preprocessing
+# 2. Steps Followed1. Data Cleaning & Preprocessing
 Removing Duplicates.
 
 Created a staging table (layoffs_staging2) and used ROW_NUMBER() to remove duplicates.
